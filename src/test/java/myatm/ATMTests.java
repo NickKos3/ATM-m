@@ -58,7 +58,7 @@ public class ATMTests {
         Card card = mock(Card.class);
         when(card.isBlocked()).thenReturn(false);
         atm.checkBalance();
-
+        /*i don't know*/
     }
 
     @Test
